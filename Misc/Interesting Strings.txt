@@ -13,7 +13,14 @@ SIDESTEPR SIDESTEPL REGROUPEND REGROUP REGROUPSTART SLIP RUN WALK DEATH GETUP
 KNOCKDOWNIDLE KNOCKDOWN HUGGED HURT2 HURT1 IDLE5 IDLE4 IDLE3 IDLE2 IDLE1
 CHARACTERANIM_%s
 
-m_szCharacterType	m_uCharacterAnimationType	m_fMultiplier	m_fInterruptRatio	m_fDamageRatio	m_fMultiplierAlert	m_fInterruptRatioAlert	m_fDamageRatioAlert
+m_szCharacterType
+m_uCharacterAnimationType
+m_fMultiplier
+m_fInterruptRatio
+m_fDamageRatio
+m_fMultiplierAlert
+m_fInterruptRatioAlert
+m_fDamageRatioAlert
 char*	HashedText
 
 Interrupt occuring before damage! Interrupt time: %.4f
