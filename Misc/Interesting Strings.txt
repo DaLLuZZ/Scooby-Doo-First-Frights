@@ -22,7 +22,7 @@ m_fDamageRatio
 m_fMultiplierAlert
 m_fInterruptRatioAlert
 m_fDamageRatioAlert
-char*	HashedText
+char* HashedText
 
 Interrupt occuring before damage! Interrupt time: %.4f
 Damage time: %.4f
