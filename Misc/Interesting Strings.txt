@@ -1,3 +1,6 @@
+// this file contains some strings extracted from the memory dump of the game process
+// (c) DaLLuZZ
+
 0x61EF60
 
 // looks like names of animations
