@@ -1,8 +1,6 @@
 0x61EF60
-in
-main
-menu
 
+// looks like names of animations
 
 LEVER
 GRAPPLEEND
@@ -96,96 +94,24 @@ m_fDamageRatio
 m_fMultiplierAlert
 m_fInterruptRatioAlert
 m_fDamageRatioAlert
-char*
-HashedText
+char* HashedText
 
-Interrupt
-occuring
-before
-damage!
-Interrupt
-time:
-%.4f
-Damage
-time:
-%.4f
-Do
-you
-wish
-to
-make
-the
-interrupt
-and
-damage
-times
-the
-same?
-Invalid
-Inerrrupt
-Time
-Ratio!
-Inturrupt
-time
-ratio
-must
-be
->
-0
-and
-<=
-1.
-%.4f
-is
-invalid!
-Invalid
-Damage
-Time
-Ratio!
-Damage
-time
-ratio
-must
-be
->
-0
-and
-<=
-1.
-%.4f
-is
-invalid!
+Interrupt occuring before damage! Interrupt time: %.4f
+Damage time: %.4f
+Do you wish to make the interrupt and damage times the same?
+Invalid Inerrrupt Time Ratio! Inturrupt time ratio must be > 0 and <= 1. %.4f is invalid!
+Invalid Damage Time Ratio! Damage time ratio must be > 0 and <= 1. %.4f is invalid!
 
 ScoobyCharacterData
 DebugWindow
 ScoobyCharacterDataClass
 Alert
-Have
-you
-copied
-the
-modified
-data
-into
-Excel?
-Do
-you
-want
-to
-exit?
-Animation
-data
-has
-been
-modified!
+Have you copied the modified data into Excel?
+Do you want to exit?
+Animation data has been modified!
 SysTabControl32Selector
-TSEFileSystem_Open:
-Error
-opening
-file
-textures
-RichEdit20A[%d]
-%s
+TSEFileSystem_Open: Error opening file textures
+RichEdit20A[%d] %s
 Trace
 RichEd20.dll
 DebugWindowTraceClass
@@ -201,19 +127,8 @@ DebugWindowTraceClass
 
 
 0x5255571
-in
-main
-menu
 
-//
-looks
-like
-names
-of
-functions
-and
-vars
-o_0
+// looks like smth from the game source code, probably names of functions and vars o_0
 
 
 ScoobyScript
@@ -252,7 +167,6 @@ SqueakFilenameRandSelect2
 SqueakFilenameRandSelect3
 SqueakFilenameRandSelect4
 SqueakFilenameRandSelect5
-
 SqueakFilenameRandSelect6
 SqueakFilenameRandSelect7
 SqueakFilenameRandSelect8
@@ -274,7 +188,6 @@ SqueakFilenameRandSelect23
 SqueakFilenameRandSelect24
 SqueakFilenameRandSelect25
 SqueakFilenameRandSelect26
-
 Output_Complete
 Output
 FireMessage
@@ -861,7 +774,6 @@ Action_PullLever
 
 DoubleInteractPuzzlePressureSwitch
 DoubleInteractPuzzlePressureSwitch/Condition_SameAllegianceNearSwitch1
-
 DoubleInteractPuzzlePressureSwitch/Condition_SameAllegianceNearSwitch2
 Condition_SameAllegianceNearSwitch1
 DoubleInteractPuzzlePressureSwitch/Action_MoveToSwitch2
@@ -1215,25 +1127,16 @@ x_ScreenNumberShape4
 CH/clubhouse_safe_correct
 CH_SafeNumber0_d
 failed
-CostumeIndex
-=
-
-uCostumeUnlockedStatus
-=
-
+CostumeIndex = 
+uCostumeUnlockedStatus = 
 x_PageInBookShape
 CH/clubhouse_itemscroll
 uRowIndex
 uOldRowIndex
 trophy
-uItemIndex
-=
-uRowIndex
-=
-uItemIndex
-After
-Level
-=
+uItemIndex =
+uRowIndex =
+uItemIndex After Level =
 Costumes
 bRenderText
 bGoingLeft
@@ -1248,114 +1151,26 @@ uCostumeCost
 costume_purchased
 costume_price
 costume_locked
-Current
-uCostumeIndex:
-=
-
+Current uCostumeIndex: = 
 bNotFound
 uNextUnlocked
 uOldCost
-Back
-ot
-the
-wolf
-
-
-:
-=
-
-bPromoScooby
-is
-unlocked
-go
-back
-to
-:
-=
-
-bPromoShaggy
-is
-unlocked
-go
-back
-to
-:
-=
-
-bPromoFred
-is
-unlocked
-go
-back
-to
-:
-=
-
-bPromoDaphne
-is
-unlocked
-go
-back
-to
-:
-=
-
-Next
-uCostumeIndex:
-=
-
+Back ot the wolf   : = 
+bPromoScooby is unlocked go back to : = 
+bPromoShaggy is unlocked go back to : = 
+bPromoFred is unlocked go back to : = 
+bPromoDaphne is unlocked go back to : = 
+Next uCostumeIndex: = 
 uNextCostumeUnlockedStatus
 turnback
 CH/clubhouse_pageturn
-bPromoScooby
-is
-unlocked
-goto
-:
-=
-
-bPromoShaggy
-is
-unlocked
-goto
-:
-=
-
-bPromoFred
-is
-unlocked
-goto
-:
-=
-
-bPromoDaphne
-is
-unlocked
-goto
-:
-=
-
-bPromoVelma
-is
-unlocked
-goto
-:
-=
-
-Nothing
-is
-unlocked
-goto
-:
-=
-
-Keep
-looking
--
-Next
-uCostumeIndex:
-=
-
+bPromoScooby is unlocked goto : = 
+bPromoShaggy is unlocked goto : = 
+bPromoFred is unlocked goto : = 
+bPromoDaphne is unlocked goto : = 
+bPromoVelma is unlocked goto : = 
+Nothing is unlocked goto : = 
+Keep looking - Next uCostumeIndex: = 
 uSnackCount
 costume_sold
 CH/clubhouse_costume_positive
@@ -1405,9 +1220,7 @@ CurrentHub
 NoExplore
 uNextLevel
 bNextLevelUnlocked
-bNextLevelUnlocked
-=
-
+bNextLevelUnlocked = 
 NextLevelUnlocked
 selectOn
 Level_One
@@ -1476,13 +1289,9 @@ Hub4_SignBoss
 E4_L1
 E4_L2
 E4_L3
-Level_Three:
-Up
-Pressed
+Level_Three: Up Pressed
 E4_Chase
-Level_Four:
-Up
-Pressed
+Level_Four: Up Pressed
 E4_L4
 E4_Boss
 ModeSelect
@@ -1490,15 +1299,9 @@ bExploreModeActive
 StoryMode
 bActivated
 bFirstLevel
-E2
-Cutscene
-go!
-E3
-Cutscene
-go!
-E4
-Cutscene
-go!
+E2 Cutscene go!
+E3 Cutscene go!
+E4 Cutscene go!
 uHubIndex
 ExploreMode
 Cutscene_E1EstabMystery
@@ -1526,21 +1329,9 @@ SOAKSetupE4
 
 
 
-0x2A21AD0
-in
-main
-menu
+0x2A21AD0 in main menu
 
-//
-also
-looks
-like
-functions/vars/script
-names
-or
-smth
-like
-that
+// also looks like smth from sourcecode and probably filenames from pakfile.dat
 
 
 missing
@@ -1576,7 +1367,6 @@ AIGoalState_Test
 Projectile
 EntityActor
 blink
-
 talk1
 Rquadruntail
 Lquadruntail
@@ -2044,6 +1834,8 @@ EntityMinigameVelmaTerminalRightIconDesc
 VelmaTerminalPlacableScript
 VelmaTerminalPlacableMultipleUseScript
 CostumeChestScript
+
+// variable names from sourcecode
 
 m_bAllowValueWrap
 m_bResetAfterEqual
@@ -3159,6 +2951,15 @@ m_szMagicScriptReference1
 m_szMagicScriptReference2
 m_szMagicScriptReference3
 
+// I have no idea if the following "Entity"-names are variables or something else, but they should also belong to the game source code
+// These could be class names if the game was written in C++, but since the game is written in C, these cannot be classes...
+// It can be assumed that these are the names of structures, but I'm not sure about that...
+// 
+// It is quite possible that these are structures and classes based on structures, implemented roughly as described there
+// https://www.pvv.ntnu.no/~hakonhal/main.cgi/c/classes/
+//
+// (c) DaLLuZZ
+
 EntityAccumulator
 EntityAreaTrigger
 EntityClientAreaTrigger
@@ -3344,21 +3145,10 @@ EntityMinigame
 
 
 
-0x2A20810
-in
-main
-menu
+0x2A20810 in main menu
 
-//
-also
-looks
-like
-smth
-from
-the
-game
-source
-code...
+// also looks like smth Entity-related from the game source code...
+// Some of them duplicate the above mentioned
 
 
 EntityClankBodyWithEffects
@@ -3555,12 +3345,8 @@ EntityClankBodyConveyorBelt
 
 
 0x29B9755
-in
-main
-menu
 
-//
-yeah...
+// yeah...
 
 
 EffectScript
@@ -3721,9 +3507,7 @@ environmentalbusfadein
 environmentalbusfadeout
 pausepush
 pausemusic
-pausemusic
-=
-
+pausemusic = 
 pausemode
 pausepop
 prevpausemode
@@ -4258,8 +4042,7 @@ DeepSeaDiverSmokeSmall
 x_Tank_M
 DeepSeaDiverSmokeBillow
 cleanup
-deepseadiver
--
+deepseadiver - 
 cleanup
 projectile_ondeath
 impact_metal_thick_light
@@ -5072,12 +4855,7 @@ EStage
 draft11fight03
 draft11fight04
 draft11fight05
-OMG
-error!!!!
-there
-is
-not
-stage,
+OMG error!!!! there is not stage,
 worldanim_crane
 worldanim_skylight
 worldanim_gatesquare
@@ -5601,14 +5379,7 @@ airvents_playeron
 airvents_playeroff
 airvents_off
 ActiveSound
-UNABLE
-TO
-DELETE
-SFX:
-PROPERTY
-PAIR
-NOT
-FOUND...
+UNABLE TO DELETE SFX: PROPERTY PAIR NOT FOUND...
 furnace
 dripping
 dripping_soft
@@ -5800,19 +5571,8 @@ e2atshakedodgemcar
 
 
 0x2948840
-in
-main
-menu
 
-//
-looks
-like
-list
-of
-game
-files
-from
-packfile.dat
+// looks like list of game files from packfile.dat (but Russian localization)
 
 
 Font_Subtitle0
