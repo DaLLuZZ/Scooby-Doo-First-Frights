@@ -1,1 +1,3 @@
-No any additional info on that file
+Errors related to this file:
+
+Too many static world collision instances!
