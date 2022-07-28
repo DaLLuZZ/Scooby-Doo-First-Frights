@@ -6,10 +6,11 @@ Everyone knows that the player can see the character's current HP in the top cor
 If the value of your HP reaches zero, then you lose control of the character and also lose some snacks. After a short pause, you regain control of the character and 30 HP is restored.<br />
 <br />
 You can take damage from enemies and from various objects of the game world. Also, your HP will decrease if you fall into the void. The following table contains all the objects of the game world that cause damage.<br />
-| Object | Damage | Image |
-| ------ |:------:| -----:|
-| Lighting | unknown | todo |
-<br />
+
+Object | Damage | Image
+:------: |:------:| :-----:
+Lightning | unknown | todo
+
 The HP value is an integer (encoded in 4 bytes). It has a constant `0x24C` offset from the base address of the player character's entity.<br />
 If you are playing single mode, then you can keep track of your HP value by reading a 32-bit integer using the pointer path:<br />
 ```cpp
