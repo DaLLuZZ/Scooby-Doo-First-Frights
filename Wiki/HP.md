@@ -9,7 +9,7 @@ You can take damage from enemies and from various objects of the game world. Als
 
 Object | Damage | Image
 :------: |:------:| :-----:
-Lightning | unknown | todo
+Lightning | 10 | todo
 
 The HP value is an integer (encoded in 4 bytes). It has a constant `0x24C` offset from the base address of the player character's entity.<br />
 If you are playing single mode, then you can keep track of your HP value by reading a 32-bit integer using the pointer path:<br />
