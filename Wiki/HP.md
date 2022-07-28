@@ -5,7 +5,7 @@ Everyone knows that the player can see the character's current HP in the top cor
 <br />
 If the value of your HP reaches zero, then you lose control of the character and also lose some snacks. After a short pause, you regain control of the character and 30 HP is restored.<br />
 <br />
-You can take damage from enemies and from various objects of the game world. Also, your HP will decrease if you fall into the void. The following table contains all the objects of the game world that cause damage.<br />
+You can take damage from enemies and from various objects of the game world. Also, your HP will decrease if you fall into the void. The following table contains all the objects of the game world that cause damage:<br />
 
 Object | Damage | Image
 :------: |:------:| :-----:
