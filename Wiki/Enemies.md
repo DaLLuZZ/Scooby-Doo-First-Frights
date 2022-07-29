@@ -3,3 +3,5 @@ musketeer health: 14hp, damage: 4hp, rushattack: ?hp
 witch health: 24hp, damage: 5hp (when they throw smth)
 
 ragdoll health: 16hp, damage: 4hp, rushattack: 16hp
+teddybear health: 3hp, damage: ,
+toybox health: hp, damage -
