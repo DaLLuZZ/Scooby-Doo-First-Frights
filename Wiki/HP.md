@@ -10,6 +10,7 @@ You can take damage from enemies and from various objects of the game world. Als
 Object | Damage | Image
 :------: |:------:| :-----:
 Lightning | 10 | ![Lightnings on E1L1](/Wiki/Images/Lightning.jpg)
+WaterFlow | 2 | ![WaterFlow on E2L1](/Wiki/Images/WaterFlow.jpg)
 
 The HP value is an integer (encoded in 4 bytes). It has a constant `0x24C` offset from the base address of the player character's entity.<br />
 If you are playing single mode, then you can keep track of your HP value by reading a 32-bit integer using the pointer path:<br />
