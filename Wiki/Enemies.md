@@ -7,4 +7,4 @@ teddybear health: 3hp, damage: 2hp, specialattack: 8hp
 toybox health: 40hp, damage -
 glidingghoul health: 6hp, damage: 2hp
 killerclown health: 50hp, damage: 6hp, specialattack 4hp (he throw skittle)
-freakycarni health: 80hp, damage: 
+freakycarni health: 80hp, damage: 6hp
