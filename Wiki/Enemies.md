@@ -8,4 +8,4 @@ toybox health: 40hp, damage -
 glidingghoul health: 6hp, damage: 2hp
 killerclown health: 50hp, damage: 6hp, specialattack: 4hp (he throw skittle)
 freakycarni health: 80hp, damage (hit): 6hp, strong attack (lightstrike): 12hp. sometimes 8hp??? wtf
-health: hp, damage: 4hp
+commandoking health: 20hp, damage: 4hp
