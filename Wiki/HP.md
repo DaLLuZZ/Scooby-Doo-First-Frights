@@ -12,7 +12,7 @@ Object | Damage | Image
 Lightning | 10 | ![Lightnings on E1L1](/Wiki/Images/Lightning.jpg)
 WaterFlow | 2 | ![WaterFlow on E2L1](/Wiki/Images/WaterFlow.jpg)
 Pendulum? | 5 | ![Object on E2L2](/Wiki/Images/Pendulum.jpg)
-Press? | 5 | ![Object on E2L2](/Wili/Images/Press.jpg)
+Press? | 5 | ![Object on E2L2](/Wiki/Images/Press.jpg)
 
 The HP value is an integer (encoded in 4 bytes). It has a constant `0x24C` offset from the base address of the player character's entity.<br />
 If you are playing single mode, then you can keep track of your HP value by reading a 32-bit integer using the pointer path:<br />
