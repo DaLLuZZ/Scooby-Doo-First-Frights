@@ -14,6 +14,7 @@ WaterFlow | 2 | ![WaterFlow on E2L1](/Wiki/Images/WaterFlow.jpg)
 Pendulum? | 5 | ![Object on E2L2](/Wiki/Images/Pendulum.jpg)
 Press? | 5 | ![Object on E2L2](/Wiki/Images/Press.jpg)
 Pendulum? | 5 | ![Object on E2L3](/Wiki/Images/Pendulum2.jpg)
+Gears | 5 | ![Gears on E2L4](/Wiki/Images/Gears.jpg)
 
 The HP value is an integer (encoded in 4 bytes). It has a constant `0x24C` offset from the base address of the player character's entity.<br />
 If you are playing single mode, then you can keep track of your HP value by reading a 32-bit integer using the pointer path:<br />
